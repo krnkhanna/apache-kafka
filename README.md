@@ -6,10 +6,10 @@ _This is my quick reference for Apache Kafka and its producer and consumer API's
 
 ## 1. TABLE OF CONTENTS
 
-- [1. TABLE OF CONTENTS](##1-table-of-contents)
-- [2. RUNNING KAFKA ON WINDOWS](##2-running-kafka-on-windows)
-- [3. TERMINOLOGY](##3-terminology)
-- [4. KAFKA PRODUCER](##4-kafka-producer)
+- [1. TABLE OF CONTENTS](#1-table-of-contents)
+- [2. RUNNING KAFKA ON WINDOWS](#2-running-kafka-on-windows)
+- [3. TERMINOLOGY](#3-terminology)
+- [4. KAFKA PRODUCER](#4-kafka-producer)
 
 ## 2. RUNNING KAFKA ON WINDOWS
 
