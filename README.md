@@ -4,14 +4,14 @@ _This is my quick reference for Apache Kafka and its producer and consumer API's
 
 **Contributions:** Issues, comments and pull requests are super welcome :smiley:
 
-# 1. TABLE OF CONTENTS
+## 1. TABLE OF CONTENTS
 
-- [1. TABLE OF CONTENTS](#1-table-of-contents)
-- [2. RUNNING KAFKA ON WINDOWS](#2-running-kafka-on-windows)
-- [3. TERMINOLOGY](#3-terminology)
-- [4. KAFKA PRODUCER](#4-kafka-producer)
+- [1. TABLE OF CONTENTS](##1-table-of-contents)
+- [2. RUNNING KAFKA ON WINDOWS](##2-running-kafka-on-windows)
+- [3. TERMINOLOGY](##3-terminology)
+- [4. KAFKA PRODUCER](##4-kafka-producer)
 
-# 2. RUNNING KAFKA ON WINDOWS
+## 2. RUNNING KAFKA ON WINDOWS
 
 ### 1. Start Zookeeper
 
@@ -35,7 +35,7 @@ _This is my quick reference for Apache Kafka and its producer and consumer API's
 
 `C:\kafka>bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from-beginning`
 
-# 3. TERMINOLOGY
+## 3. TERMINOLOGY
 
 ### 1. Record
 
@@ -61,7 +61,7 @@ Creates a record and publishes it to the broker.
 
 Consumes records from the broker.
 
-# 4. KAFKA PRODUCER
+## 4. KAFKA PRODUCER
 
 A Kafka client that publishes records to Kafka cluster. The producer is `thread-safe` and sharing a single producer instance across threads is generally faster than having multiple instances.
 
@@ -81,6 +81,6 @@ The `key.serializer` and `value.serializer` controls how to turn the key value o
 
 [Example for creating a value serializer.][3]
 
-[1]:
-[2]:
-[3]:
+[1]: https://github.com/krnkhanna1989/apache-kafka/blob/master/src/main/java/org/spituk/study/kafka/java/examples/producer/ProducerCreator.java
+[2]: https://github.com/krnkhanna1989/apache-kafka/blob/master/src/main/java/org/spituk/study/kafka/java/examples/serializer/AccountNumberSerializer.java
+[3]: https://github.com/krnkhanna1989/apache-kafka/blob/master/src/main/java/org/spituk/study/kafka/java/examples/serializer/TransactionSerializer.java
